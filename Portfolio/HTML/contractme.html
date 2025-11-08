@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Contact Me</title>
-</head>
+<html lang="en">
 <body>
 
-    <h1>Contact Me</h1>
-    <hr>
+    <header>
+        </header>
 
-    <p> Phone : +8801976728651</p>
-    <p><a href="mailto:kamrulhasan199048@gmail.com">kamrulhasan199048@gmail.com</a></p>
+    <form method="GET">
+        First Name: <input type="text" name="firstname" required><br><br>
+        Last Name: <input type="text" name="lastname" required><br><br>
+        Email: <input type="email" name="email" required><br><br>
 
+        Reason for contacting me: <br>
+        <input type="radio" name="reason" value="project" required>Project<br>
+        <input type="radio" name="reason" value="thesis">Thesis<br>
+        <input type="radio" name="reason" value="job">Job<br><br>
+
+        Service: <br>
+        <input type="checkbox" name="service" value="Learning Exel " required >Exel Work<br>
+        <input type="checkbox" name="service" value="Software" required>Software Engineering<br>
+        <input type="checkbox" name="service" value="web tech" required>Web Designer <br><br>
+
+        <input type="date" aria-placeholder="Book an Appointment"><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
 
 </body>
 </html>
